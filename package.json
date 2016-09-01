@@ -39,7 +39,7 @@
     "coverage:check": "istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
     "test": "standard && istanbul cover tape test.js"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "pre-commit": [
     "test",
     "coverage:check"
