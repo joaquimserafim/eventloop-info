@@ -19,7 +19,7 @@ Detects and measures the latency of the NodeJS event loop
 	* **delay** *integer*, returns the event loop delay in ms
 	* **addInfo** *js object*, returns an object with memory and cpu usage at the time of the blocking/delay op
 
-* **threshold** *integer*, used to set up the amount of ms to execute the fn callback, default to 10 ms
+* **threshold** *integer*, use to set up the amount of ms to execute the fn callback, default to 10 ms
 
 ### example
 
